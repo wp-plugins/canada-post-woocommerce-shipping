@@ -57,7 +57,7 @@ Please contact us at info@wooforce.com in case you have any questions.
 = I can't see facility to define package sizes. Isn't this required? =
 
 In most of the cases it is not required. If your actual order weight is less than Volumetric weight then you will get accurate results. If you are shipping item which is huge in size and less in weight then it could be a problem.
-Please contact us at DaZ@wooforce.co if this is the  case. 
+Please contact us at info@wooforce.com if this is the  case. 
 
 = Currently during checkout all shipping services from Canada Post are displayed. Can I disable few of them? =
 
