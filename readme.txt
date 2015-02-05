@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Shipment Creation, Label and Invoice/Manifest Printing
+The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Shipment Creation, Label and Invoice/Manifest Printing [info@wooforce.com]
 
 == Description ==
 
@@ -44,7 +44,7 @@ Without this feature the owner has to log in to the Canada Post website each tim
 
 Customers will get automatic email notifications about the status of their shipment.
 
-Please contact us at DaZ@wooforce.com in case you have any questions.
+Please contact us at info@wooforce.com in case you have any questions.
 
 == Installation ==
 
@@ -61,7 +61,7 @@ Please contact us at DaZ@wooforce.co if this is the  case.
 
 = Currently during checkout all shipping services from Canada Post are displayed. Can I disable few of them? =
 
-Not in the current version. Please contact us at DaZ@wooforce.com in case you need this feature 
+Not in the current version. Please contact us at info@wooforce.com in case you need this feature 
 
 == Screenshots ==
 
