@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Shipment Creation, Label and Invoice/Manifest Printing [info@wooforce.com]
+The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Shipment Creation, Label and Invoice/Manifest Printing
 
 == Description ==
 
