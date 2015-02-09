@@ -44,7 +44,7 @@ Without this feature the owner has to log in to the Canada Post website each tim
 
 Customers will get automatic email notifications about the status of their shipment.
 
-Please contact us at info@wooforce.com in case you have any questions.
+Please contact us at info@wooforce.com in case you have any questions.Visit our company site [WooForce](http://www.wooforce.com/).
 
 == Installation ==
 
