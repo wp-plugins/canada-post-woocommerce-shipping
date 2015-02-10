@@ -19,7 +19,7 @@ To make the life of shop owners easier, Canada Post WooCommerce Shipping plugin 
 
 = Integrates WooCommerce to Canada Post =
 
-Once this plugin is installed and configured with necessary information (please visit installation section for more info), your Wordpress/WooCommerce Shop will be ready to ship using Canada Post.
+Once this plugin is installed and configured with necessary information (please visit installation section for more info), your WordPress/WooCommerce Shop will be ready to ship using Canada Post. This plugin will add Canada Post shipping method as one of the shipping methods in WooCommerce.
 
 = Calculate shipping rates dynamically =
 
