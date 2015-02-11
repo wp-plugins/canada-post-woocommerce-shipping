@@ -1,7 +1,7 @@
 === Canada Post WooCommerce Shipping ===
 Contributors: DaZ_008
 Donate link: 
-Tags: Canada Post Shipping, Shipping rates, Label printing, Manifest / Invoice printing, Shipping, WooCommerce
+Tags: Canada Post, Canada Post Shipping, Shipping rates, Label printing, Manifest / Invoice printing, Shipping, WooCommerce
 Requires at least: 3.0.1
 Tested up to: 4.1
 Stable tag: 1.0.0
@@ -15,6 +15,8 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 Canada Post WooCommerce Shipping plugin helps WooCommerce shops to streamline Canada Post shipping integration. This plugin helps you to get shipping rates from Canada Post APIs based on product weight, post code and other relevant details. Based on the postal codes and other parameters, all available shipping services along with the rates are listed for the customers to choose from.
 
 To make the life of shop owners easier, Canada Post WooCommerce Shipping plugin automates the backend activities. With the click of a button on Wordpress dashboard, you can create new shipping and print the shipping label. You can also fetch manifest/invoice and print them. The plugin also enables sending of shipping status notifications to the customer email.
+
+In case you need our support in installation, setup or customisation of the plugin, please contact us at info@wooforce.com
 
 
 = Integrates WooCommerce to Canada Post =
