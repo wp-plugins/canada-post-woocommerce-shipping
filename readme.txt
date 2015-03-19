@@ -13,7 +13,7 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 == Description ==
 
 = About WooForce.com =
-WooForce creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
+[WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
 Checkout our latest USPS WooCommerce Shipping Rates and Label plugin in [codecanyon](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
 
