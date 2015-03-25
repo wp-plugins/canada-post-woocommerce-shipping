@@ -17,21 +17,22 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 
 Buy our latest USPS WooCommerce Shipping Rates and Label plugin from [codecanyon](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
 
-= Buy Premium version of Canada Post plugin from [codecanyon](http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749) for just $21/- =
+= Buy Premium version of Canada Post plugin from codecanyon for just $21/- =
+[codecanyon](http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749)
 
-*Enable/disable, edit the names of, and add costs/handling charges to services
+ * Enable/disable, edit the names of, and add costs/handling charges to services
 
 Here you can rename, and re-order, Canada Post shipping rates and add price adjustments as a percentage or by dollar amount. These adjustments can be either positive or negative, should you want to apply discounts to shipping.
 
-*Pack items individually or using the built in box packer
+ * Pack items individually or using the built in box packer
 
 You can choose from three different packing methods with Canada Post. This will affect the rates as well as label printing.
 
-*Per-Item: Each item in your cart (non virtual) will be sent to the Canada Post API. Quotes for all items will be combined for the final cost.
+ * Per-Item: Each item in your cart (non virtual) will be sent to the Canada Post API. Quotes for all items will be combined for the final cost.
 
-*Weight Based: The cart will be split into 30kg packages, and each package sent to the API. No dimensions will be sent, only the weight.
+ * Weight Based: The cart will be split into 30kg packages, and each package sent to the API. No dimensions will be sent, only the weight.
 
-*Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.
+ * Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.
 
 = Introduction =
 Canada Post WooCommerce Shipping plugin helps WooCommerce shops to streamline Canada Post shipping integration. This plugin helps you to get shipping rates from Canada Post APIs based on product weight, post code and other relevant details. Based on the postal codes and other parameters, all available shipping services along with the rates are listed for the customers to choose from.
