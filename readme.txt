@@ -19,8 +19,10 @@ Buy our latest USPS WooCommerce Shipping Rates and Label plugin from [codecanyon
 
 = Buy Premium version of Canada Post plugin from codecanyon for just $21/- =
 [codecanyon](http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749)
+ 
  * Enable/disable, edit the names of, and add costs/handling charges to services
 Here you can rename, and re-order, Canada Post shipping rates and add price adjustments as a percentage or by dollar amount. These adjustments can be either positive or negative, should you want to apply discounts to shipping.
+ 
  * Pack items individually or using the built in box packer
 You can choose from three different packing methods with Canada Post. This will affect the rates as well as label printing.
  * Per-Item: Each item in your cart (non virtual) will be sent to the Canada Post API. Quotes for all items will be combined for the final cost.
