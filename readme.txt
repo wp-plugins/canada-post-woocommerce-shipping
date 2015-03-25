@@ -17,20 +17,21 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 
 <blockquote>
 = Buy Premium version of Canada Post plugin from Codecanyon for just $21/- =
-
-[Buy From Codecanyon!](http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749)
+<a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749">Buy From Codecanyon!</a>
 
 = Premium version Features =
- * Enable/disable, edit the names of, and add costs/handling charges to services
-Here you can rename, and re-order, Canada Post shipping rates and add price adjustments as a percentage or by dollar amount. These adjustments can be either positive or negative, should you want to apply discounts to shipping.
- * Pack items individually or using the built in box packer
-You can choose from three different packing methods with Canada Post. This will affect the rates as well as label printing.
- * Per-Item: Each item in your cart (non virtual) will be sent to the Canada Post API. Quotes for all items will be combined for the final cost.
- * Weight Based: The cart will be split into 30kg packages, and each package sent to the API. No dimensions will be sent, only the weight.
- * Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.
- 
+<ul>
+<li>Enable/disable, edit the names of, and add costs/handling charges to services
+Here you can rename, and re-order, Canada Post shipping rates and add price adjustments as a percentage or by dollar amount. These adjustments can be either positive or negative, should you want to apply discounts to shipping.</li>
+<li>Pack items individually or using the built in box packer
+You can choose from three different packing methods with Canada Post. This will affect the rates as well as label printing.</li>
+<li>Per-Item: Each item in your cart (non virtual) will be sent to the Canada Post API. Quotes for all items will be combined for the final cost.</li>
+<li>Weight Based: The cart will be split into 30kg packages, and each package sent to the API. No dimensions will be sent, only the weight.</li>
+<li>Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.</li>
+</ul>
+
 = Buy our latest USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
-[Buy From Codecanyon!](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
+<a rel="nofollow" href="http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330">Buy From Codecanyon!</a>
 </blockquote>
 
 = Introduction =
