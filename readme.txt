@@ -15,10 +15,8 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
-Buy our latest USPS WooCommerce Shipping Rates and Label plugin from [codecanyon](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
-
-= Buy Premium version of Canada Post plugin from codecanyon for just $21/- =
-[codecanyon](http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749)
+= Buy Premium version of Canada Post plugin from Codecanyon for just $21/- =
+[Buy From Codecanyon!](http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749)
  
 = Premium version Features =
  * Enable/disable, edit the names of, and add costs/handling charges to services
@@ -28,6 +26,9 @@ You can choose from three different packing methods with Canada Post. This will 
  * Per-Item: Each item in your cart (non virtual) will be sent to the Canada Post API. Quotes for all items will be combined for the final cost.
  * Weight Based: The cart will be split into 30kg packages, and each package sent to the API. No dimensions will be sent, only the weight.
  * Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.
+ 
+= Buy our latest USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
+[Buy From Codecanyon!](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
 
 = Introduction =
 Canada Post WooCommerce Shipping plugin helps WooCommerce shops to streamline Canada Post shipping integration. This plugin helps you to get shipping rates from Canada Post APIs based on product weight, post code and other relevant details. Based on the postal codes and other parameters, all available shipping services along with the rates are listed for the customers to choose from.
