@@ -17,8 +17,9 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 
 <blockquote>
 = Buy Premium version of Canada Post plugin from Codecanyon for just $21/- =
+
 [Buy From Codecanyon!](http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749)
- 
+
 = Premium version Features =
  * Enable/disable, edit the names of, and add costs/handling charges to services
 Here you can rename, and re-order, Canada Post shipping rates and add price adjustments as a percentage or by dollar amount. These adjustments can be either positive or negative, should you want to apply discounts to shipping.
