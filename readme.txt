@@ -17,7 +17,7 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 
 <blockquote>
 = Buy Premium version of Canada Post plugin from Codecanyon for just $21/- =
-<a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749">Buy From Codecanyon!</a>
+<a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Buy From Codecanyon!</a>
 
 = Premium version Features =
 <ul>
@@ -31,7 +31,7 @@ You can choose from three different packing methods with Canada Post. This will 
 </ul>
 
 = Buy our latest USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
-<a rel="nofollow" href="http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330">Buy From Codecanyon!</a>
+<a rel="nofollow" href="http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330?ref=WooForce">Buy From Codecanyon!</a>
 </blockquote>
 
 = Introduction =
