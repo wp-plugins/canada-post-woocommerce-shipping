@@ -33,11 +33,17 @@ You can choose from three different packing methods with Canada Post. This will 
 <li>Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.</li>
 </ul>
 
-= Buy our latest WooCommerce Shipping Pro from Codecanyon for just $24/- =
+= Buy our WooCommerce Shipping Pro from Codecanyon for just $24/- =
 <a rel="nofollow" href="http://codecanyon.net/item/woocommerce-shipping-pro/10982849?ref=WooForce">Buy From Codecanyon!</a>
 
-= Buy our latest USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
+= Buy our USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
 <a rel="nofollow" href="http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330?ref=WooForce">Buy From Codecanyon!</a>
+
+= Buy our UPS WooCommerce Shipping with Print Label plugin from Codecanyon for just $21/- =
+<a rel="nofollow" href="http://codecanyon.net/item/ups-woocommerce-shipping-with-print-label/11035787?ref=WooForce">Buy From Codecanyon!</a>
+
+= Buy our latest FedEx WooCommerce Shipping with Print Label  plugin from Codecanyon for just $21/- =
+<a rel="nofollow" href="http://codecanyon.net/item/fedex-woocommerce-shipping-with-print-label/11263057?ref=WooForce">Buy From Codecanyon!</a>
 </blockquote>
 
 = Introduction =
