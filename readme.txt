@@ -12,7 +12,8 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 
 == Description ==
 <blockquote>
-Free version is no longer maintained. <a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Please Buy latest version From Codecanyon for just $21!</a>
+= Free version is no longer maintained. =  
+<a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Please BUY latest version From Codecanyon for just $21!</a>
 </blockquote>
 
 = About WooForce.com =
