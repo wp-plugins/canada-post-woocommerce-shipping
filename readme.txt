@@ -11,6 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Shipment Creation, Label and Invoice/Manifest Printing
 
 == Description ==
+<blockquote>
+Free version is no longer maintained. <a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Please Buy latest version From Codecanyon for just $21!</a>
+</blockquote>
 
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
