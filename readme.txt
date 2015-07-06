@@ -37,17 +37,17 @@ You can choose from three different packing methods with Canada Post. This will 
 <li>Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.</li>
 </ul>
 
-= Buy WooCommerce Shipping Pro for just $24/- =
+= Buy our WooCommerce Shipping Pro for just $24/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Buy Now!</a>
 
 = Buy USPS WooCommerce Shipping Rates and Label plugin for just $21/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/usps-woocommerce-shipping-with-print-label/">Buy Now!</a>
 
 = Buy UPS WooCommerce Shipping with Print Label plugin for just $21/- =
-<a rel="nofollow" href="http://www.wooforce.com/product/ups-woocommerce-shipping-setup/">Buy Now!</a>
+<a rel="nofollow" href="http://www.wooforce.com/product/ups-woocommerce-shipping-with-print-label-plugin/">Buy Now!</a>
 
-= Buy FedEx WooCommerce Shipping with Print Label  plugin for just $21/- =
-<a rel="nofollow" href="http://www.wooforce.com/product/fedex-woocommerce-shipping-plugin/">Buy Now!</a>
+= Buy FedEx WooCommerce Shipping with Print Label plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/fedex-woocommerce-shipping-with-print-label-plugin/">Buy Now!</a>
 
 = Buy WooCommerce Shipment Tracking plugin for just $21/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipment-tracking/">Buy Now!</a>
