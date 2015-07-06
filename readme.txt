@@ -37,7 +37,7 @@ You can choose from three different packing methods with Canada Post. This will 
 <li>Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.</li>
 </ul>
 
-= Buy our WooCommerce Shipping Pro for just $24/- =
+= Buy WooCommerce Shipping Pro for just $24/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Buy Now!</a>
 
 = Buy USPS WooCommerce Shipping Rates and Label plugin for just $21/- =
