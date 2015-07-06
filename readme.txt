@@ -13,15 +13,15 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 == Description ==
 <blockquote>
 = Free version is no longer maintained. =  
-<a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Please BUY latest version From Codecanyon for just $21!</a>
+<a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Please BUY latest version for just $21!</a>
 </blockquote>
 
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
 <blockquote>
-= Buy Premium version of Canada Post plugin from Codecanyon for just $21/- =
-<a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Buy From Codecanyon!</a>
+= Buy Premium version of Canada Post plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Buy Now!</a>
 
 = Premium version Features =
 <ul>
@@ -37,17 +37,29 @@ You can choose from three different packing methods with Canada Post. This will 
 <li>Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.</li>
 </ul>
 
-= Buy our WooCommerce Shipping Pro from Codecanyon for just $24/- =
-<a rel="nofollow" href="http://codecanyon.net/item/woocommerce-shipping-pro/10982849?ref=WooForce">Buy From Codecanyon!</a>
+= Buy our WooCommerce Shipping Pro for just $24/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Buy Now!</a>
 
-= Buy our USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
-<a rel="nofollow" href="http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330?ref=WooForce">Buy From Codecanyon!</a>
+= Buy USPS WooCommerce Shipping Rates and Label plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/usps-woocommerce-shipping-with-print-label/">Buy Now!</a>
 
-= Buy our UPS WooCommerce Shipping with Print Label plugin from Codecanyon for just $21/- =
-<a rel="nofollow" href="http://codecanyon.net/item/ups-woocommerce-shipping-with-print-label/11035787?ref=WooForce">Buy From Codecanyon!</a>
+= Buy UPS WooCommerce Shipping with Print Label plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/ups-woocommerce-shipping-setup/">Buy Now!</a>
 
-= Buy our latest FedEx WooCommerce Shipping with Print Label  plugin from Codecanyon for just $21/- =
-<a rel="nofollow" href="http://codecanyon.net/item/fedex-woocommerce-shipping-with-print-label/11263057?ref=WooForce">Buy From Codecanyon!</a>
+= Buy FedEx WooCommerce Shipping with Print Label  plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/fedex-woocommerce-shipping-plugin/">Buy Now!</a>
+
+= Buy WooCommerce Shipment Tracking plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipment-tracking/">Buy Now!</a>
+
+= Buy Australia Post WooCommerce Shipping plugin for just $28/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/australia-post-woocommerce-shipping-plugin/">Buy Now!</a>
+
+= Buy Stamps.com WooCommerce Extension with USPS Postage plugin for just $25/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/stamps-com-woocommerce-extension-with-usps-postage/">Buy Now!</a>
+
+= Buy DHL WooCommerce Shipping with Print Label plugin for just $28/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/dhl-woocommerce-shipping-with-print-label/">Buy Now!</a>
 </blockquote>
 
 = Introduction =
