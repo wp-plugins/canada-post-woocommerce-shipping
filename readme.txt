@@ -13,14 +13,14 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 == Description ==
 <blockquote>
 = Free version is no longer maintained. =  
-<a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Please BUY latest version for just $21!</a>
+<a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Please BUY latest version!</a>
 </blockquote>
 
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
 <blockquote>
-= Buy Premium version of Canada Post plugin for just $21/- =
+= Buy Premium version of Canada Post plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Buy Now!</a>
 
 = Premium version Features =
@@ -37,28 +37,28 @@ You can choose from three different packing methods with Canada Post. This will 
 <li>Pack into boxes: Items will be packed into pre-defined boxes and sent to the API. We recommend this option. See box-packing below for more information on this.</li>
 </ul>
 
-= Buy our WooCommerce Shipping Pro for just $24/- =
+= Buy our WooCommerce Shipping Pro =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Buy Now!</a>
 
-= Buy USPS WooCommerce Shipping Rates and Label plugin for just $21/- =
+= Buy USPS WooCommerce Shipping Rates and Label plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/usps-woocommerce-shipping-with-print-label/">Buy Now!</a>
 
-= Buy UPS WooCommerce Shipping with Print Label plugin for just $21/- =
+= Buy UPS WooCommerce Shipping with Print Label plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/ups-woocommerce-shipping-with-print-label-plugin/">Buy Now!</a>
 
-= Buy FedEx WooCommerce Shipping with Print Label plugin for just $21/- =
+= Buy FedEx WooCommerce Shipping with Print Label plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/fedex-woocommerce-shipping-with-print-label-plugin/">Buy Now!</a>
 
-= Buy WooCommerce Shipment Tracking plugin for just $21/- =
+= Buy WooCommerce Shipment Tracking plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipment-tracking/">Buy Now!</a>
 
-= Buy Australia Post WooCommerce Shipping plugin for just $28/- =
+= Buy Australia Post WooCommerce Shipping plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/australia-post-woocommerce-shipping-plugin/">Buy Now!</a>
 
-= Buy Stamps.com WooCommerce Extension with USPS Postage plugin for just $25/- =
+= Buy Stamps.com WooCommerce Extension with USPS Postage plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/stamps-com-woocommerce-extension-with-usps-postage/">Buy Now!</a>
 
-= Buy DHL WooCommerce Shipping with Print Label plugin for just $28/- =
+= Buy DHL WooCommerce Shipping with Print Label plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/dhl-woocommerce-shipping-with-print-label/">Buy Now!</a>
 </blockquote>
 
