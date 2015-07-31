@@ -17,13 +17,12 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 <blockquote>
 = Buy Premium version of Canada Post plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Buy Now!</a>
-
-= Premium version Features =
 [youtube https://www.youtube.com/watch?v=pFtxNSWn1K0]
+= Premium version Features =
 <ul>
 <li>Option to set printing paper size as 8.5*11 or 4*6 for label printing. 4*6 can be set for label printing with Zebra thermal printer, Dymo label printer etc..</li>
 <li>Option to enter weight and dimension manually for Label printing, Useful when weight and dimensions of products are not correct.</li>
-<li>Option to enable shipment number and tracking pin added as customer order notes.</li>
+<li>Auto tracking added to customer order complete email and account view.</li>
 <li>Enable/disable, edit the names of, and add costs/handling charges to services
 Here you can rename, and re-order, Canada Post shipping rates and add price adjustments as a percentage or by dollar amount. These adjustments can be either positive or negative, should you want to apply discounts to shipping.</li>
 <li>Pack items individually or using the built in box packer
