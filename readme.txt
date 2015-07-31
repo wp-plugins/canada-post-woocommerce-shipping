@@ -11,11 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Shipment Creation, Label and Invoice/Manifest Printing
 
 == Description ==
-<blockquote>
-= Free version is no longer maintained. =  
-<a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Please BUY latest version!</a>
-</blockquote>
-
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
@@ -24,6 +19,7 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 <a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Buy Now!</a>
 
 = Premium version Features =
+[youtube https://www.youtube.com/watch?v=pFtxNSWn1K0]
 <ul>
 <li>Option to set printing paper size as 8.5*11 or 4*6 for label printing. 4*6 can be set for label printing with Zebra thermal printer, Dymo label printer etc..</li>
 <li>Option to enter weight and dimension manually for Label printing, Useful when weight and dimensions of products are not correct.</li>
