@@ -14,10 +14,11 @@ The Ultimate Canada Post WooCommerce Shipping Plugin. Dynamic Shipping Rates, Sh
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
-<blockquote>
 = Buy Premium version of Canada Post plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Buy Now!</a>
 [youtube https://www.youtube.com/watch?v=pFtxNSWn1K0]
+
+<blockquote>
 = Premium version Features =
 <ul>
 <li>Option to set printing paper size as 8.5*11 or 4*6 for label printing. 4*6 can be set for label printing with Zebra thermal printer, Dymo label printer etc..</li>
