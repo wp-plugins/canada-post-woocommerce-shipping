@@ -1,5 +1,5 @@
 === Canada Post WooCommerce Shipping ===
-Contributors: DaZ_008
+Contributors: WooForce
 Donate link: 
 Tags: Canada Post, Canada Post Shipping, Shipping rates, Label printing, Manifest / Invoice printing, Shipping, WooCommerce
 Requires at least: 3.0.1
