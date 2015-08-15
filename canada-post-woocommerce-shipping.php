@@ -2,8 +2,8 @@
 /*
 	Plugin Name: Canada Post WooCommerce Shipping
 	Plugin URI: http://www.wooforce.com
-	Description: The ultimate Canada Post WooCommerce Shipping plugin. Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing.
-	Version: 1.0.0
+	Description: The ultimate Canada Post WooCommerce Shipping plugin. Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing. Upgrade to Premium version for streamlining the shipping process & excellent support!
+	Version: 1.1.0
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
@@ -18,10 +18,10 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 			class wf_woocommerce_canadapost_shipping_method extends WC_Shipping_Method {
 				
 				public function __construct() {
-					$this->id                 = 'wf_woocommerce_canada_post';
+					$this->id                 = 'wf_shipping_canada_post';
 					$this->method_title       = __( 'Canada Post', 'woocommerce_canada_post' );
 		
-					$this->method_description = __( 'The ultimate Canada Post WooCommerce Shipping plugin. Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing.', 'woocommerce_canada_post' );
+					$this->method_description = __( 'The ultimate Canada Post WooCommerce Shipping plugin. Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing. Upgrade to Premium version for streamlining the shipping process & excellent support!', 'woocommerce_canada_post' );
 		
 					$this->wf_init();		
 				}
@@ -35,16 +35,16 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 					// Define user set variables
 					$this->title = $this->settings['title'];
 					$this->enabled = $this->settings['enabled']; 
-					$this->username = $this->settings['username']; 
-					$this->password = $this->settings['password'];
-					$this->customerId = $this->settings['customerId'];
-					$this->contractId = $this->settings['contractId'];
+					$this->username = $this->settings['merchant_username']; 
+					$this->password = $this->settings['merchant_password'];
+					$this->customerId = $this->settings['customer_number'];
+					$this->contractId = $this->settings['contract_number'];
 					$this->mailedBy = $this->customerId;
 					$this->mobo = $this->customerId;
 					$this->groupId = '4326432';
-					$this->serviceUrl = $this->settings['serviceUrl'];
+					$this->serviceUrl = $this->settings['service_url'];
 					$this->max_weight = $this->settings['max_weight'];
-					$this->origin_postcode = $this->settings['origin_postcode'];
+					$this->origin_postcode = $this->settings['origin'];
 					$this->quote_type = $this->settings['quote_type'];
 					$this->debug = $this->settings['debug'];
 					
@@ -58,14 +58,41 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 					 $this->form_fields = wf_get_woocommerce_canadapost_settings();
 				} // End wf_init_form_fields()
 				
-				function admin_options() { ?>
-					 <h3><?php _e('Canada Post','woocommerce_canada_post'); ?></h3>
-					 
-					 <?php echo ( ! empty( $this->method_description ) ) ? wpautop( $this->method_description ) : ''; ?>
-
-					 <table class="form-table">
-					 <?php $this->generate_settings_html(); ?>
-					 </table> <?php
+				/**
+				 * admin_options function.
+				 *
+				 * @access public
+				 * @return void
+				 */
+				public function admin_options() {
+					// Check users environment supports this method
+					$this->environment_check();
+					?>
+					<div class="wf-banner updated below-h2">
+						<img class="scale-with-grid" src="http://www.wooforce.com/wp-content/uploads/2015/07/WooForce-Logo-Admin-Banner-Basic.png" alt="Wordpress / WooCommerce Canada Post Shipping with Print Label Plugin | WooForce">
+						<p class="main"><strong>WooCommerce Canada Post Shipping with Print Label Premium version streamlines your complete shipping process and saves time</strong></p>
+						<p>&nbsp;-&nbsp;Print shipping label.<br>
+						&nbsp;-&nbsp;Auto Shipment Tracking: It happens automatically while generating the label.<br>
+						&nbsp;-&nbsp;Box packing.<br>
+						&nbsp;-&nbsp;Enable/disable, edit the names of, and add handling costs to shipping services.<br>
+						&nbsp;-&nbsp;Option to set printing paper size as 4*6 for Zebra/Thermal/Dymo printer.<br>
+						&nbsp;-&nbsp;Option to enter weight and dimension manually for Label printing, Useful when product weight and dimensions are not maintained.<br>
+						&nbsp;-&nbsp;Lettermail Rates.<br>
+						&nbsp;-&nbsp;Additional Options Coverage/Insurance.<br>
+						&nbsp;-&nbsp;Show delivery time during checkout. Option to add delivery delay if required.<br>
+						&nbsp;-&nbsp;Excellent Support for setting it up!</p>
+						<p><a href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-with-print-label-plugin/" target="_blank" class="button button-primary">Upgrade to Premium Version</a> <a href="http://canadapost.wooforce.com/wp-admin/admin.php?page=wc-settings&tab=shipping&section=wf_shipping_canada_post" target="_blank" class="button">Live Demo</a></p>
+					</div>
+					<style>
+					.wf-banner img {
+						float: right;
+						margin-left: 1em;
+						padding: 15px 0
+					}
+					</style>
+					<?php 
+					// Show settings
+					parent::admin_options();
 				}
 
 				public function calculate_shipping( $package ){
@@ -227,31 +254,31 @@ XML;
 				  'description' => __( 'Enable/Disable Canada Post Shipping method' , 'woocommerce_canada_post' ),
 				  'default' => 'no'
 				   ),
-			'username' => array(
+			'merchant_username' => array(
 				  'title' => __( 'UserName', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Canada POST API UserName.', 'woocommerce_canada_post' ),
 				  'default' => '6e93d53968881714'
 				  ),
-			'password' => array(
+			'merchant_password' => array(
 				  'title' => __( 'Password', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Canada POST API Password.', 'woocommerce_canada_post' ),
 				  'default' => '0bfa9fcb9853d1f51ee57a'
 				  ),
-			'customerId' => array(
+			'customer_number' => array(
 				  'title' => __( 'CustomerId', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Canada POST API CustomerId.', 'woocommerce_canada_post' ),
 				  'default' => '2004381'
 				  ),
-			'contractId' => array(
+			'contract_number' => array(
 				  'title' => __( 'ContractId', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Canada POST API ContractId.', 'woocommerce_canada_post' ),
 				  'default' => '42708517'
 				  ),
-			'serviceUrl' => array(
+			'service_url' => array(
 				  'title' => __( 'ServiceUrl', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Canada POST API ContractId.', 'woocommerce_canada_post' ),
@@ -263,37 +290,37 @@ XML;
 				  'description' => __( 'If the total weight exceeds the max weight then package will be split into different shipping', 'woocommerce_canada_post' ),
 				  'default' => '30'
 				  ),
-			'origin_postcode' => array(
+			'origin' => array(
 				  'title' => __( 'Origin Postcode', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Post code of the Sender, from where shipment needs to be picked', 'woocommerce_canada_post' ),
 				  'default' => 'K6A 3H2'
 				  ),
-			'senderCompanyName' => array(
+			'sender_company_name' => array(
 				  'title' => __( 'Sender Company Name', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Company Name to be printed in the shipping label and invoice', 'woocommerce_canada_post' ),
 				  'default' => 'Sender Company Name'
 				  ),
-			'senderContactPhone' => array(
+			'sender_contact_phone' => array(
 				  'title' => __( 'Sender Contact Phone', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Contact Phone to be printed in the shipping label and invoice', 'woocommerce_canada_post' ),
 				  'default' => '1-222-333-4444'
 				  ),
-			'senderAddressLine1' => array(
+			'sender_address_line1' => array(
 				  'title' => __( 'Sender Address Line1', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Address Line1 to be printed in the shipping label and invoice', 'woocommerce_canada_post' ),
 				  'default' => '077 First Street'
 				  ),
-			'senderCity' => array(
+			'sender_city' => array(
 				  'title' => __( 'Sender City', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'City to be printed in the shipping label and invoice', 'woocommerce_canada_post' ),
 				  'default' => 'Hawkesbury'
 				  ),
-			'senderState' => array(
+			'sender_state' => array(
 				  'title' => __( 'Sender State', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'State to be printed in the shipping label and invoice', 'woocommerce_canada_post' ),

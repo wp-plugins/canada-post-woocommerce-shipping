@@ -3,7 +3,7 @@ class wf_woocommerce_canadapost_admin
 {
 	public function __construct(){
 		// Load form_field settings
-		$this->settings = get_option( 'woocommerce_wf_woocommerce_canada_post_settings', null );
+		$this->settings = get_option( 'woocommerce_wf_shipping_canada_post_settings', null );
 
 		if ( $this->settings && is_array( $this->settings ) ) {
 		  $this->settings = array_map( array( $this, 'wf_format_settings' ), $this->settings );
@@ -12,24 +12,24 @@ class wf_woocommerce_canadapost_admin
 					
 		$this->title = $this->settings['title'];
 		$this->enabled = $this->settings['enabled']; 
-		$this->username = $this->settings['username']; 
-		$this->password = $this->settings['password'];
-		$this->customerId = $this->settings['customerId'];
-		$this->contractId = $this->settings['contractId'];
+		$this->username = $this->settings['merchant_username']; 
+		$this->password = $this->settings['merchant_password'];
+		$this->customerId = $this->settings['customer_number'];
+		$this->contractId = $this->settings['contract_number'];
 		$this->mailedBy = $this->customerId;
 		$this->mobo = $this->customerId;
 		$this->groupId = '4326432';
-		$this->serviceUrl = $this->settings['serviceUrl'];
+		$this->serviceUrl = $this->settings['service_url'];
 		$this->max_weight = $this->settings['max_weight'];
-		$this->origin_postcode = $this->settings['origin_postcode'];
+		$this->origin_postcode = $this->settings['origin'];
 		$this->quote_type = $this->settings['quote_type'];
 		$this->debug = $this->settings['debug'];
 		
-		$this->senderCompanyName = $this->settings['senderCompanyName'];
-		$this->senderContactPhone = $this->settings['senderContactPhone'];
-		$this->senderAddressLine1 = $this->settings['senderAddressLine1'];
-		$this->senderCity = $this->settings['senderCity'];
-		$this->senderState = $this->settings['senderState'];
+		$this->senderCompanyName = $this->settings['sender_company_name'];
+		$this->senderContactPhone = $this->settings['sender_contact_phone'];
+		$this->senderAddressLine1 = $this->settings['sender_address_line1'];
+		$this->senderCity = $this->settings['sender_city'];
+		$this->senderState = $this->settings['sender_state'];
 					
 		if (is_admin()) {
 			add_action('add_meta_boxes', array($this, 'wf_add_canada_post_metabox'));
@@ -626,12 +626,12 @@ XML;
 		}
 
 		$shipping_method = array_shift($shipping_methods);
-		if (empty($shipping_method['method_id']) || strpos($shipping_method['method_id'], 'wf_woocommerce_canada_post:') === false) {
+		if (empty($shipping_method['method_id']) || strpos($shipping_method['method_id'], 'wf_shipping_canada_post:') === false) {
 			return '';
 		}
 
 		if($shipping_method['method_id'])
-		return str_replace('wf_woocommerce_canada_post:', '', $shipping_method['method_id']);
+		return str_replace('wf_shipping_canada_post:', '', $shipping_method['method_id']);
 	}
 	
 	private function wf_get_package_request_wrapper($order){
