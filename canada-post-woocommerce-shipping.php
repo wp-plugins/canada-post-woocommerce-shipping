@@ -1,9 +1,9 @@
 <?php
 /*
-	Plugin Name: Canada Post WooCommerce Shipping
+	Plugin Name: WooCommerce Canada Post Shipping Basic
 	Plugin URI: http://www.wooforce.com
-	Description: The ultimate Canada Post WooCommerce Shipping plugin. Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing. Upgrade to Premium version for streamlining the shipping process & excellent support!
-	Version: 1.1.0
+	Description: The WooCommerce Canada Post Shipping Basic plugin . Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing. Upgrade to Premium version for streamlining the shipping process & excellent support!
+	Version: 1.1.1
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
@@ -19,9 +19,9 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 				
 				public function __construct() {
 					$this->id                 = 'wf_shipping_canada_post';
-					$this->method_title       = __( 'Canada Post', 'woocommerce_canada_post' );
+					$this->method_title       = __( 'Canada Post Basic', 'woocommerce_canada_post' );
 		
-					$this->method_description = __( 'The ultimate Canada Post WooCommerce Shipping plugin. Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing. Upgrade to Premium version for streamlining the shipping process & excellent support!', 'woocommerce_canada_post' );
+					$this->method_description = __( 'The WooCommerce Canada Post Shipping Basic plugin. Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing. Upgrade to Premium version for streamlining the shipping process & excellent support!', 'woocommerce_canada_post' );
 		
 					$this->wf_init();		
 				}
@@ -246,12 +246,12 @@ XML;
 				  'title' => __( 'Title', 'woocommerce_canada_post' ),
 				  'type' => 'text',
 				  'description' => __( 'Title which the user sees during checkout.', 'woocommerce_canada_post' ),
-				  'default' => __( 'Canada Post', 'woocommerce_canada_post' )
+				  'default' => __( 'Canada Post Basic', 'woocommerce_canada_post' )
 				  ),
 			 'enabled' => array(
 				  'title' => __( 'Enable/Disable', 'woocommerce_canada_post' ),
 				  'type' => 'checkbox',
-				  'description' => __( 'Enable/Disable Canada Post Shipping method' , 'woocommerce_canada_post' ),
+				  'description' => __( 'Enable/Disable Canada Post Basic Shipping method' , 'woocommerce_canada_post' ),
 				  'default' => 'no'
 				   ),
 			'merchant_username' => array(
@@ -395,4 +395,17 @@ XML;
 	
 	if ( ! class_exists( 'wf_woocommerce_canadapost_admin' ) )
 		include_once 'canada-post-woocommerce-shipping-admin.php';	
+	
+	/**
+	 * Plugin page links
+	 */
+	function wf_canada_post_plugin_action_links( $links ) {
+		$plugin_links = array(
+			'<a href="' . admin_url( 'admin.php?page=wc-settings&tab=shipping&section=wf_woocommerce_canadapost_shipping_method' ) . '">' . __( 'Settings', 'wf-shipping-canada-post' ) . '</a>',
+			'<a href="http://www.wooforce.com/pages/contact/">' . __( 'Support', 'wf-shipping-canada-post' ) . '</a>',
+		);
+		return array_merge( $plugin_links, $links );
+	}
+	add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'wf_canada_post_plugin_action_links' );
+			
 }		
