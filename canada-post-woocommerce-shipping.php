@@ -3,7 +3,7 @@
 	Plugin Name: WooCommerce Canada Post Shipping Basic
 	Plugin URI: http://www.wooforce.com
 	Description: The WooCommerce Canada Post Shipping Basic plugin . Dynamic shipping rates, Shipment Creation, Label and Invoice/Manifesto Printing. Upgrade to Premium version for streamlining the shipping process & excellent support!
-	Version: 1.1.1
+	Version: 1.1.2
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
@@ -66,7 +66,6 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 				 */
 				public function admin_options() {
 					// Check users environment supports this method
-					$this->environment_check();
 					?>
 					<div class="wf-banner updated below-h2">
 						<img class="scale-with-grid" src="http://www.wooforce.com/wp-content/uploads/2015/07/WooForce-Logo-Admin-Banner-Basic.png" alt="Wordpress / WooCommerce Canada Post Shipping with Print Label Plugin | WooForce">

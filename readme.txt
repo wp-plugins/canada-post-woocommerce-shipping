@@ -4,7 +4,7 @@ Donate link:
 Tags: Canada Post, Canada Post Shipping, Shipping rates, Label printing, Manifest / Invoice printing, Shipping, WooCommerce
 Requires at least: 3.0.1
 Tested up to: 4.2.4
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -133,6 +133,8 @@ Not in the current version. Please contact us at info@wooforce.com in case you n
  * Plugin id and settings made its same as the premium version for seamless upgrade.
 = 1.1.1 =
  * Provided a settings link in plugin page.
+= 1.1.2 =
+ * Minor bug fix function doesn't exist.
 
 == Upgrade Notice ==
 = 1.0 =
@@ -141,3 +143,5 @@ Initial release
 Please reconfigure your settings after upgrade.
 = 1.1.1 =
 Provided a settings link in plugin page.
+= 1.1.2 =
+Minor bug fix function doesn't exist.
